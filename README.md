@@ -6,7 +6,6 @@ This application is designed to be run as a background process, periodically che
 - [Tech Stack](#tech-stack)
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [Assignment Overview](#assignment-overview)
 - [Scope for Improvement](#scope-for-improvement)
