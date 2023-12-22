@@ -27,7 +27,7 @@ This application is designed to be run as a background process, periodically che
 
 1. Clone the repository.
 ```bash
-
+git clone https://github.com/mahtodeepanshu/openinapp-assessment.git
 ```
 2. Install dependencies using `npm install`.
 ```bash
