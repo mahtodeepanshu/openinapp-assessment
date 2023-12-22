@@ -1,6 +1,6 @@
 # Gmail Vacation Email Responder
 
-This application is designed to be run as a background process, periodically checking for new emails and sending vacation replies to their respective senders. Using the Gmail API, this Node.js software automates vacation replies for unseen emails.
+This application is designed to be run as a background process, periodically checking for new emails and sending vacation replies to their respective senders. Using the Gmail API, this Node.js application automates vacation replies for unseen emails.
 
 ## Table of Contents
 - [Tech Stack](#tech-stack)
@@ -12,8 +12,12 @@ This application is designed to be run as a background process, periodically che
 - [Scope for Improvement](#scope-for-improvement)
 - [Author](#author)
 
+## Tech Stack 
 
-# Requirements
+- Backend - `NodeJS`
+- API - `GMail API`
+
+## Requirements
 - The app should **check for new emails in a given Gmail ID**.
 - The app should send replies to Emails that have **no prior replies**.
 - The app should **add a Label to the email and move the email to the label**.
@@ -70,14 +74,15 @@ npm start
 
 ## Assignment Overview
 
-For explaination video - [Click Here]()
+For explaination video - [Click Here](https://drive.google.com/file/d/13p2Dnvo5Tpr53ydBEEpr8cTYqGDzi4Sa/view?usp=sharing)
 
 ## Scope for Improvement
 
-- App can be published for use
+- App can be published and verified by google for use. 
 - Option can be provided to chose a label name for the user
 - Testing can be done against the edge cases.
 - Enhanced error handling to gracefully manage API failures, network issues, or other unexpected scenarios can be done.
+- Code modularity can be improved
 
 ## Author
 
